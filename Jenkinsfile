@@ -1,15 +1,4 @@
-
-
 node
-<<<<<<< HEAD:Jenkinsfile
-=======
-
-{
-
-  def mavenHome=tool name: "maven3.6.3"
-  
- stage('Checkout')
->>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456:JenkinsfileTest
  {
   
   def mavenHome = tool name: "maven3.6.2"
@@ -28,17 +17,8 @@ node
   {
    git branch: 'development', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
  }
-<<<<<<< HEAD:Jenkinsfile
  
  stage("Build")
-=======
-
- 
-
-
- /*
- stage('Build')
->>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456:JenkinsfileTest
  {
  sh "${mavenHome}/bin/mvn clean package"
  }
@@ -72,8 +52,3 @@ node
  */
  
  }
-<<<<<<< HEAD:Jenkinsfile
-=======
-
-}
->>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456:JenkinsfileTest
