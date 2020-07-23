@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.4-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,12 +21,19 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
+<<<<<<< HEAD
 		<!-- <sonar.host.url>http://13.232.5.182:9000/</sonar.host.url> -->
 		<sonar.host.url>http://127.0.0.1:9000/</sonar.host.url>
 		<!-- <sonar.login>admin</sonar.login> 
 		<sonar.password>admin</sonar.password>
 -->
 		<sonar.login>7fb7961707cf88a6d033c2337469abf0aea25a83</sonar.login>
+=======
+		<sonar.host.url>http://13.234.213.43:9000/</sonar.host.url>
+		<!--<sonar.login>68a2a121435ecf5f0e65bd392845175651959746</sonar.login>  -->
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password> 
+>>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -118,14 +125,22 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
+<<<<<<< HEAD
 	      <url>http://192.168.9.129:8081/repository/wallmart-releases/</url>
+=======
+	      <url>http://13.233.17.232:9980/mithuntechnologies/repository/wallmart-releases/</url>
+>>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+<<<<<<< HEAD
 	      <url>http://192.168.9.129:8081/repository/wallmart-snapshot/</url>
 	      <!-- <url>http://13.126.179.131:8081/repository/wallmart-snapshot/</url> -->
+=======
+	      <url>http://13.233.17.232:9980/mithuntechnologies/repository/wallmart-snapshot/</url>
+>>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456
 	    </snapshotRepository>
 	    
 	</distributionManagement>

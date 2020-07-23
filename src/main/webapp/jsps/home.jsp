@@ -10,7 +10,11 @@
 </head>
 <body>
 <h1 align="center">Welcome to Mithun Technologies.</h1>
+<<<<<<< HEAD
 <h1 align="center"> MSS- Very Good Training center for DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
+=======
+<h1 align="center"> Welcome to MIthun Technologies.......We have a demo on  DevOps with AWS on Aug 2nd 2020  at 7 PM IST for new batch. , Timings are 7.30 AM to 9 aM  . MSS- Very Good Training center for DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... Some fake guys are giving the fake reviews dont believe those guys..I am requesting everyone. Please give your reviews in FB and Google.</h1>
+>>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456
 <hr>
 <div style="text-align: center;">
 	<span>
@@ -21,7 +25,11 @@
 		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
 		Bangalore,
 		+91-9980923226,
+<<<<<<< HEAD
 		devopstrainingblr@gmail.com
+=======
+		devopstrainingbr@gmail.com
+>>>>>>> 28fa0e23551c3b5d16b2585d3f5ed617aa469456
 		<br>
 		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
 	</span>
@@ -31,7 +39,7 @@
 <hr>
 <hr>
 <p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2019 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
+<p align=center><small>Copyrights 2020 by <a href="http://mithuntechnologies.com/">Mithun Technologies</a> </small></p>
 
 </body>
 </html>
